@@ -1,3 +1,5 @@
+# Introduction
+
 Built a framework which takes as input a video and performs social distancing detection. This framework detects humans within the video, applies homography techniques to adjust for depth and distance, detects whether humans are at least a safe distance of each other (2 meters), and outputs a labelled video in which social distancing violations are visually marked. This framework implements and allows two leading object detection approaches to be used interchangeably (Faster R-CNNs and YOLOv3). Information is logged as it runs, thus allowing for comparisons between the two approaches. 
 
 We use this framework to detect social distancing in 4 different video datasets with both Faster R-CNNs and YOLOv3, and perform analysis on the data. We derive several insights on social distance detection from this data and conclude with a comparison on the performance of Faster R-CNNs versus YOLOv3 for social distancing detection, and we finally present that a social distancing detector using Faster R-CNNs correctly detects social distancing violations 2.52 times more frequently than YOLOv3.
