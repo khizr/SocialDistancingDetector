@@ -2,7 +2,8 @@ Built a framework which takes as input a video and performs social distancing de
 
 We use this framework to detect social distancing in 4 different video datasets with both Faster R-CNNs and YOLOv3, and perform analysis on the data. We derive several insights on social distance detection from this data and conclude with a comparison on the performance of Faster R-CNNs versus YOLOv3 for social distancing detection, and we finally present that a social distancing detector using Faster R-CNNs correctly detects social distancing violations 2.52 times more frequently than YOLOv3.
 
-**Output File**
+**Labelled Output**
+\
 ![](output.gif)
 
 
